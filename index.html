@@ -3,243 +3,368 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CloudHost — Premium Hosting</title>
+  <title>Hosting Company Landing Page</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero" id="home">
-    <nav class="nav container">
-      <a class="brand" href="#home" aria-label="CloudHost home">
-        <span class="brand-mark">C</span>
-        <span>CloudHost</span>
-      </a>
-      <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#support">Support</a>
-      </div>
-      <a class="nav-cta" href="#pricing">Get Started</a>
+
+<!-- ========== HEADER / NAV ========== -->
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-logo">Hosting<span>Co</span></div>
+      <ul class="nav-links">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Landing</a></li>
+      </ul>
     </nav>
+  </div>
+</header>
 
-    <div class="hero-content container">
-      <div class="hero-copy">
-        <span class="eyebrow light">FAST • SECURE • RELIABLE</span>
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-text">
         <h1>Premium Hosting Services</h1>
-        <p>
-          Powerful hosting built for speed, security and effortless growth.
-          Launch your next website with reliable infrastructure and friendly support.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-dark" href="#pricing">Get Web Hosting</a>
-          <a class="text-link" href="#services">Explore services <span>→</span></a>
-        </div>
-        <div class="hero-trust">
-          <span><b>99.99%</b> uptime</span>
-          <span><b>24/7</b> support</span>
-          <span><b>30-day</b> guarantee</span>
+        <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae donec velit neque</p>
+        <a href="#" class="btn btn-primary">Get Web Hosting</a>
+        <div class="domain-row">
+          <span>.com <strong>$8.99/yr</strong></span>
+          <span>.net <strong>$8.99/yr</strong></span>
+          <span>.org <strong>$8.99/yr</strong></span>
+          <span>.gov <strong>$8.99/yr</strong></span>
         </div>
       </div>
+      <div class="hero-img">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_01.png" alt="Hosting Illustration" />
+      </div>
+    </div>
+  </div>
+</section>
 
-      <div class="hero-visual" aria-hidden="true">
-        <div class="server server-back">
-          <span></span><span></span><span></span>
-        </div>
-        <div class="server server-front">
-          <span></span><span></span><span></span>
-        </div>
-        <div class="screen">
-          <div class="screen-top"><i></i><i></i><i></i></div>
-          <div class="shield">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M12 2 20 5v6c0 5.2-3.2 9.4-8 11-4.8-1.6-8-5.8-8-11V5l8-3Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
-              <path d="m8.5 12 2.2 2.2 4.8-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+<!-- ========== SERVICES ========== -->
+<section class="services">
+  <div class="container">
+    <div class="services-top">
+      <div class="services-top-left">
+        <p class="label">Our Services</p>
+        <h2>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consect adipiscing amet sit dolor</h2>
+      </div>
+      <div class="services-top-right">
+        <a href="#" class="btn btn-outline">All Services</a>
+      </div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Icon_05.png" alt="Uptime" /><div class="line"></div>
+        <h3>Uptime Guarantee</h3>
+        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
+        <a href="#" class="card-link">Click Here &rarr;</a>
+      </div>
+      <div class="service-card">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Icon_03.png" alt="Backups" /><div class="line"></div>
+        <h3>Secure Backups</h3>
+        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
+        <a href="#" class="card-link">Click Here &rarr;</a>
+      </div>
+      <div class="service-card">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Icon_04.png" alt="Secure" /><div class="line"></div>
+        <h3>Safe &amp; Secure</h3>
+        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
+        <a href="#" class="card-link">Click Here &rarr;</a>
+      </div>
+      <div class="service-card">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Big-Icon_02.png" alt="Support" /><div class="line"></div>
+        <h3>Dedicated Support</h3>
+        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
+        <a href="#" class="card-link">Click Here &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FEATURES ========== -->
+<section class="features">
+  <div class="container">
+    <p class="label">Our Features</p>
+
+    <!-- YUQORI QISM: chap matn + o'ng katta rasm -->
+    <div class="features-inner">
+      <div class="features-left">
+        <h2>Enjoy Preconfigured Setups or Full Control</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar libero eget enim imperdiet, et finibus tortor tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim viverra mauris non laoreet.</p>
+      </div>
+      <div class="features-right">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_02.png" alt="Features Illustration" />
+      </div>
+    </div>
+
+    <!-- PASTKI QISM: 6 ta item — 3 ustun x 2 qator -->
+    <div class="features-items">
+      <div class="feature-item">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_09.png" alt="" />
+        <span>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</span>
+      </div>
+      <div class="feature-item">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_17.png" alt="" />
+        <span>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</span>
+      </div>
+      <div class="feature-item">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_08.png" alt="" />
+        <span>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</span>
+      </div>
+      <div class="feature-item">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_06.png" alt="" />
+        <span>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</span>
+      </div>
+      <div class="feature-item">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_20.png" alt="" />
+        <span>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</span>
+      </div>
+      <div class="feature-item">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_13.png" alt="" />
+        <span>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== PRICING ========== -->
+<section class="pricing">
+  <div class="container">
+    <p class="label center">Pricing</p>
+    <h2 class="section-title center">Web Hosting Plans &amp; Pricing</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h4>Shared Hosting</h4>
+        <div class="price">$3.99<span>/month</span></div>
+        <ul>
+          <li>25000 visits per month</li>
+          <li>1 Site</li>
+          <li>50GB Storage</li>
+          <li>256 GB Bandwidth/mo</li>
+          <li>24/7 Support</li>
+          <li>Unlimited Email Addresses</li>
+        </ul>
+        <a href="#" class="btn btn-outline-dark">Get Started</a>
+      </div>
+      <div class="price-card featured">
+        <h4>Pro Plan</h4>
+        <div class="price">$12.99<span>/month</span></div>
+        <ul>
+          <li>25000 visits per month</li>
+          <li>1 Site</li>
+          <li>50GB Storage</li>
+          <li>256 GB Bandwidth/mo</li>
+          <li>24/7 Support</li>
+          <li>Unlimited Email Addresses</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="price-card">
+        <h4>Private Hosting</h4>
+        <div class="price">$29.99<span>/month</span></div>
+        <ul>
+          <li>25000 visits per month</li>
+          <li>1 Site</li>
+          <li>50GB Storage</li>
+          <li>256 GB Bandwidth/mo</li>
+          <li>24/7 Support</li>
+          <li>Unlimited Email Addresses</li>
+        </ul>
+        <a href="#" class="btn btn-outline-dark">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FILE MANAGEMENT ========== -->
+<section class="filemanage">
+  <div class="container">
+    <div class="filemanage-inner">
+      <div class="filemanage-left">
+        <p class="label">File Management</p>
+        <h2>Safe and Secure Web Hosting &amp; Backups</h2>
+        <div class="filemanage-items">
+          <div class="fm-item">
+            <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_03.png" alt="" />
+            <div>
+              <h5>Mauris dignissim vive</h5>
+              <p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p>
+            </div>
           </div>
-          <div class="screen-lines"><span></span><span></span><span></span></div>
+          <div class="fm-item">
+            <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_05.png" alt="" />
+            <div>
+              <h5>Mauris dignissim vive</h5>
+              <p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p>
+            </div>
+          </div>
+          <div class="fm-item">
+            <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_02.png" alt="" />
+            <div>
+              <h5>Mauris dignissim vive</h5>
+              <p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p>
+            </div>
+          </div>
         </div>
-        <div class="floating-card card-speed">
-          <span class="mini-icon">↗</span>
-          <div><small>Page speed</small><b>98 / 100</b></div>
-        </div>
-        <div class="floating-card card-secure">
-          <span class="mini-icon">✓</span>
-          <div><small>Security</small><b>Protected</b></div>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="filemanage-right">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_03.png" alt="File Management" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta">
+  <div class="container">
+    <div class="cta-inner">
+      <div class="cta-text">
+        <h2>Talk With an Expert to Get Started Today!</h2>
+        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta.</p>
+        <a href="#" class="btn btn-white">Live Chat</a>
+      </div>
+      <div class="cta-img">
+        <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_04.png" alt="Expert" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EASY SETUP ========== -->
+<section class="setup">
+  <div class="container">
+    <div class="setup-inner">
+      <div class="setup-left">
+        <p class="label">Easy Setup</p>
+        <h2>One Click Installs</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar libero eget enim imperdiet, et finibus tortor tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul class="setup-list">
+          <li>Mauris dignissim viverra mauris non laoreet.</li>
+          <li>Ut sem odio, rutrum vestibulum nibh et</li>
+          <li>Vestibulum ante ipsum primis in faucibus orci</li>
+          <li>Mauris dignissim viverra mauris non laoreet.</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Click Here</a>
+      </div>
+      <div class="setup-right">
+        <!-- placeholder icons for apps since no images available -->
+        <div class="apps-grid">
+          <div class="app-box">
+            <div class="app-icon wp">W</div>
+            <span>WordPress</span>
+          </div>
+          <div class="app-box">
+            <div class="app-icon joomla">J</div>
+            <span>Joomla</span>
+          </div>
+          <div class="app-box">
+            <div class="app-icon drupal">D</div>
+            <span>Drupal</span>
+          </div>
+          <div class="app-box">
+            <div class="app-icon magento">M</div>
+            <span>Magento</span>
+          </div>
+          <div class="app-box">
+            <div class="app-icon php">P</div>
+            <span>PHP</span>
+          </div>
+          <div class="app-box">
+            <div class="app-icon mysql">S</div>
+            <span>MySQL</span>
+          </div>
         </div>
       </div>
     </div>
-    <div class="wave" aria-hidden="true"></div>
-  </header>
+  </div>
+</section>
 
-  <main>
-    <section class="domains container" aria-label="Domain pricing">
-      <div><b>.com</b><span>$8.99/yr</span></div>
-      <div><b>.net</b><span>$8.99/yr</span></div>
-      <div><b>.org</b><span>$8.99/yr</span></div>
-      <div><b>.dev</b><span>$9.99/yr</span></div>
-    </section>
-
-    <section class="section services" id="services">
-      <div class="container">
-        <div class="section-heading split-heading">
+<!-- ========== TESTIMONIALS ========== -->
+<section class="testimonials">
+  <div class="container">
+    <p class="label light center">What They're Saying</p>
+    <h2 class="section-title center light-text">Customer Testimonials</h2>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p>"Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings."</p>
+        <div class="testi-author">
+          <div class="avatar">JS</div>
           <div>
-            <span class="eyebrow">OUR SERVICES</span>
-            <h2>Everything your website needs to stay online.</h2>
+            <strong>Jane Smith</strong>
+            <span>Dev Lead, Divi Corner</span>
           </div>
-          <p>
-            Simple tools, fast servers and proactive protection — all combined in one clean hosting experience.
-          </p>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card offset-down">
-            <div class="icon-box">
-              <svg viewBox="0 0 24 24"><path d="M4 6h16v5H4zM4 13h16v5H4z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M7 8.5h.01M7 15.5h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-            </div>
-            <h3>Uptime Guarantee</h3>
-            <p>Reliable infrastructure designed to keep your site available around the clock.</p>
-            <a href="#pricing">Learn more <span>→</span></a>
-          </article>
-
-          <article class="service-card">
-            <div class="icon-box">
-              <svg viewBox="0 0 24 24"><path d="M6 7h12v11H6z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M9 7V5h6v2M9 12h6M9 15h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-            </div>
-            <h3>Secure Backups</h3>
-            <p>Automatic backups protect your data and make restoring your site effortless.</p>
-            <a href="#pricing">Learn more <span>→</span></a>
-          </article>
-
-          <article class="service-card offset-down">
-            <div class="icon-box">
-              <svg viewBox="0 0 24 24"><path d="M12 3 19 6v5c0 4.5-2.8 8-7 9.5C7.8 19 5 15.5 5 11V6l7-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3>Safe & Secure</h3>
-            <p>Built-in security monitoring helps block suspicious activity before it becomes a problem.</p>
-            <a href="#pricing">Learn more <span>→</span></a>
-          </article>
-
-          <article class="service-card">
-            <div class="icon-box">
-              <svg viewBox="0 0 24 24"><path d="M4 13a8 8 0 0 1 16 0v5h-4v-5h4M4 13v5h4v-5H4Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M16 19c0 1.1-.9 2-2 2h-2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-            </div>
-            <h3>Dedicated Support</h3>
-            <p>Helpful specialists are ready whenever you need a quick answer or technical guidance.</p>
-            <a href="#support">Learn more <span>→</span></a>
-          </article>
         </div>
       </div>
-    </section>
-
-    <section class="section features" id="features">
-      <div class="container feature-wrap">
-        <div class="feature-visual" aria-hidden="true">
-          <div class="feature-circle circle-one"></div>
-          <div class="feature-circle circle-two"></div>
-          <div class="feature-panel">
-            <div class="panel-head"><span></span><span></span><span></span></div>
-            <div class="panel-stat">
-              <small>Server Health</small>
-              <strong>Excellent</strong>
-            </div>
-            <div class="bars"><i></i><i></i><i></i><i></i><i></i></div>
-            <div class="panel-row"><span>CPU usage</span><b>24%</b></div>
-            <div class="panel-row"><span>Bandwidth</span><b>68%</b></div>
+      <div class="testi-card">
+        <p>"Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings."</p>
+        <div class="testi-author">
+          <div class="avatar">DG</div>
+          <div>
+            <strong>Dan Greene</strong>
+            <span>IT Director, Monarch Inc.</span>
           </div>
-          <div class="mini-server one"><i></i><i></i><i></i></div>
-          <div class="mini-server two"><i></i><i></i><i></i></div>
-        </div>
-
-        <div class="feature-copy">
-          <span class="eyebrow">OUR FEATURES</span>
-          <h2>Enjoy preconfigured setups or full control.</h2>
-          <p>
-            Start quickly with optimized defaults, then customize your environment as your project grows.
-          </p>
-          <ul class="feature-list">
-            <li><span>✓</span> Fast SSD storage and global infrastructure</li>
-            <li><span>✓</span> Free SSL protection for every hosted website</li>
-            <li><span>✓</span> Simple dashboard for files, domains and backups</li>
-            <li><span>✓</span> Scalable plans for personal and business projects</li>
-          </ul>
-          <a class="btn btn-blue" href="#pricing">See hosting plans</a>
         </div>
       </div>
-    </section>
-
-    <section class="section pricing" id="pricing">
-      <div class="container">
-        <div class="section-heading center-heading">
-          <span class="eyebrow">PRICING</span>
-          <h2>Web Hosting Plans & Pricing</h2>
-          <p>Choose a simple plan today and upgrade whenever your project needs more resources.</p>
-        </div>
-
-        <div class="pricing-grid">
-          <article class="price-card">
-            <span class="plan-label">STARTER</span>
-            <h3>Shared Hosting</h3>
-            <div class="price"><span>$</span>3.99<small>/month</small></div>
-            <ul>
-              <li>25,000 visits per month</li>
-              <li>1 website</li>
-              <li>50 GB SSD storage</li>
-              <li>Free SSL certificate</li>
-              <li>24/7 support</li>
-            </ul>
-            <a href="#support" class="btn btn-outline">Get Started</a>
-          </article>
-
-          <article class="price-card featured">
-            <div class="popular">MOST POPULAR</div>
-            <span class="plan-label">PRO</span>
-            <h3>Pro Plan</h3>
-            <div class="price"><span>$</span>12.99<small>/month</small></div>
-            <ul>
-              <li>100,000 visits per month</li>
-              <li>10 websites</li>
-              <li>150 GB SSD storage</li>
-              <li>Daily secure backups</li>
-              <li>Priority 24/7 support</li>
-            </ul>
-            <a href="#support" class="btn btn-blue full">Get Started</a>
-          </article>
-
-          <article class="price-card">
-            <span class="plan-label">BUSINESS</span>
-            <h3>Private Hosting</h3>
-            <div class="price"><span>$</span>29.99<small>/month</small></div>
-            <ul>
-              <li>Unlimited monthly visits</li>
-              <li>Unlimited websites</li>
-              <li>300 GB SSD storage</li>
-              <li>Advanced security tools</li>
-              <li>Dedicated support</li>
-            </ul>
-            <a href="#support" class="btn btn-outline">Get Started</a>
-          </article>
+      <div class="testi-card">
+        <p>"Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings."</p>
+        <div class="testi-author">
+          <div class="avatar">JD</div>
+          <div>
+            <strong>John Doe</strong>
+            <span>CEO, Extra Space</span>
+          </div>
         </div>
       </div>
-    </section>
-
-    <section class="support" id="support">
-      <div class="container support-inner">
-        <div>
-          <span class="eyebrow light">READY TO START?</span>
-          <h2>Talk with an expert and launch your website today.</h2>
-          <p>Fast setup, reliable hosting and support whenever you need it.</p>
-        </div>
-        <a href="#home" class="btn btn-light">Start Now</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <a class="brand footer-brand" href="#home"><span class="brand-mark">C</span><span>CloudHost</span></a>
-      <p>Fast, secure hosting for modern websites.</p>
-      <span>© 2026 CloudHost. Demo landing page.</span>
     </div>
-  </footer>
+  </div>
+</section>
+
+<!-- ========== GUARANTEE ========== -->
+<section class="guarantee">
+  <div class="container">
+    <p class="label center">Satisfaction Guaranteed</p>
+    <div class="guarantee-grid">
+      <div class="guarantee-card">
+        <h3>24/7 Award Winning Support</h3>
+        <p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada.</p>
+        <a href="#" class="btn btn-outline-dark">Contact Us</a>
+      </div>
+      <div class="guarantee-card">
+        <h3>30 Day Money Back Guarantee</h3>
+        <p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada.</p>
+        <a href="#" class="btn btn-outline-dark">Learn More</a>
+      </div>
+      <div class="guarantee-card">
+        <h3>30 Days of Free Hosting</h3>
+        <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia</p>
+        <a href="#" class="btn btn-outline-dark">Learn How</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <ul class="footer-links">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">X</a></li>
+      <li><a href="#">RSS</a></li>
+    </ul>
+    <p class="footer-copy">Designed by <a href="#">Elegant Themes</a> | Powered by <a href="#">WordPress</a></p>
+  </div>
+</footer>
+
 </body>
 </html>
